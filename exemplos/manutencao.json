@@ -1,0 +1,8 @@
+{
+  "tarefas": [
+    { "id": "A", "nome": "Desligar a máquina", "duracao": 2 },
+    { "id": "B", "nome": "Trocar a peça", "duracao": 3, "dependeDe": ["A"] },
+    { "id": "C", "nome": "Pintar a estrutura", "duracao": 4, "dependeDe": ["A"] },
+    { "id": "D", "nome": "Testar e religar", "duracao": 1, "dependeDe": ["B", "C"] }
+  ]
+}

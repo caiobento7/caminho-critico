@@ -1,0 +1,8 @@
+id;nome;duracao;depende_de
+REQ;Levantar requisitos;2;
+DES;Design das telas;3;REQ
+API;Criar a API;5;REQ
+BD;Modelar o banco;2;REQ
+FRONT;Desenvolver o frontend;4;DES API
+TEST;Testes;1,5;FRONT BD
+DEPLOY;Publicar;0,5;TEST

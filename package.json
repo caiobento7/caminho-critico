@@ -1,0 +1,22 @@
+{
+  "name": "caminho-critico",
+  "version": "1.0.0",
+  "description": "Calcula a duração mínima e o caminho crítico (CPM) de qualquer lista de tarefas com dependências.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Caio Bento",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
